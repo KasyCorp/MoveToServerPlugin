@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MoveToServerPlugin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MoveToServerPlugin_jar</output-path>
+    <root id="archive" name="MoveToServerPlugin.jar">
+      <element id="module-output" name="MoveToServerPlugin" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/server.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

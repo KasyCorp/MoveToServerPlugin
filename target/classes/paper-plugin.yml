@@ -1,0 +1,16 @@
+name: MoveToServerPlugin
+version: '1.0-SNAPSHOT'
+main: com.kasycorp.moveToServerPlugin.MoveToServerPlugin
+api-version: '1.20'
+commands:
+  reloadconfig:
+    description: Reloads the plugin configuration
+  settargetserver:
+    description: Sets the target server
+permissions:
+  movetoserver.reloadconfig:
+    description: Allows reloading the MoveToServerPlugin configuration
+    default: op
+  movetoserver.settargetserver:
+    description: Allows setting the target server for MoveToServerPlugin
+    default: op
